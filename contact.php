@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Contact Top Notch Mudjacking for a free estimate on concrete leveling services."
+    />
+    <link rel="stylesheet" href="ResponsiveTopNavDropdown.css" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="picturefill.min.js" async></script>
+  </head>
+  <body>
+    <?php include ('include/header.html'); ?>
+
+    <main>
+      <div class="page-banner">
+        <h1>Contact Us</h1>
+      </div>
+
+      <section class="page-content">
+        <div class="contact-grid">
+          <div class="contact-form-wrap">
+            <h2>Get A Free Estimate</h2>
+            <p>
+              Fill out the form below and we'll get back to you as soon as
+              possible.
+            </p>
+            <form class="contact-form" action="#" method="post">
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required />
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required />
+              </div>
+              <div class="form-group">
+                <label for="phone">Phone</label>
+                <input type="tel" id="phone" name="phone" />
+              </div>
+              <div class="form-group">
+                <label for="address">Address</label>
+                <input type="text" id="address" name="address" />
+              </div>
+              <div class="form-group">
+                <label for="message">Describe Your Project</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+              </div>
+              <button type="submit" class="btn">Send Message</button>
+            </form>
+          </div>
+
+          <div class="contact-info-wrap">
+            <h2>Contact Information</h2>
+            <div class="contact-details">
+              <div class="contact-detail">
+                <img loading="lazy" src="images/phone-logo.png" alt="Phone Icon" />
+                <div>
+                  <h3>Phone</h3>
+                  <a href="tel:(309) 948-3736">(309) 948-3736</a>
+                </div>
+              </div>
+              <div class="contact-detail">
+                <img loading="lazy" src="images/email-logo.png" alt="Email Icon" />
+                <div>
+                  <h3>Email</h3>
+                  <a href="mailto:topnotchmudjacking@gmail.com"
+                    >topnotchmudjacking@gmail.com</a
+                  >
+                </div>
+              </div>
+              <div class="contact-detail">
+                <img loading="lazy" src="images/address-icon.webp" alt="Address Icon" />
+                <div>
+                  <h3>Address</h3>
+                  <p>420 4th Ave W,<br />Andalusia, IL 61232-9205</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="contact-map">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1530724.266031476!2d-90.557455!3d41.467512!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87e3cfd7f4648971%3A0xef203219debac9fb!2sTop%20Notch%20Mudjacking!5e0!3m2!1sen!2sus!4v1782314449566!5m2!1sen!2sus"
+                width="600"
+                height="300"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="strict-origin-when-cross-origin"
+              ></iframe>
+            </div>
+
+            <div class="hours">
+              <img loading="lazy" src="images/hours.png" alt="hours of operation" />
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <?php include ('include/footer.html'); ?>
+  </body>
+</html>

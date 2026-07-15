@@ -8,7 +8,7 @@
       content="Read customer reviews for Top Notch Mudjacking - trusted by homeowners across the Quad Cities."
     />
     <link rel="stylesheet" href="ResponsiveTopNavDropdown.css" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style.css?v=<?php echo @filemtime(__DIR__ . '/style.css'); ?>" />
     <script src="picturefill.min.js" async></script>
   </head>
   <body>
@@ -27,9 +27,13 @@
             ><img loading="lazy" src="images/google-icon.png" alt="View Customer Reviews from Google"
           /></a>
           <a
-            href="https://www.bbb.org/us/il/andalusia/profile/mud-jacking-contractors/top-notch-mudjacking-llc-0664-32099853"
+            href="https://www.bbb.org/us/il/andalusia/profile/mud-jacking-contractors/top-notch-mudjacking-llc-0664-32099853/#sealclick"
             target="_blank"
-            ><img loading="lazy" src="images/bbb-logo.png" alt="View Customer Reviews from the Better Business Bureau"
+            rel="nofollow"
+            ><img
+              src="https://seal-iowa.bbb.org/seals/blue-seal-293-61-bbb-32099853.png"
+              style="border: 0;"
+              alt="Top Notch Mudjacking LLC BBB Business Review"
           /></a>
         </div>
 
@@ -45,135 +49,158 @@
           <div class="review-card">
             <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
             <p class="review-text">
-              Another excellent job by Top Notch!! This is the 2nd time we have
-              used them. We have had a leak in the spillway on our pond for more
-              than 3 years. Numerous attempts using conventional methods could
-              not fix the problem so we thought we would see what Top Notch
-              thought. They can add another job skill to their list!! Fixed the
-              leak!! We couldn't be happier!! The whole experience with Top
-              Notch has always been TOP NOTCH service from the initial phone
-              call to their departure once job completed.
+              Would highly recommend! We had some sections of concrete that had
+              settled creating a pretty bad trip hazard right in front of the
+              door. They did an amazing job leveling everything perfectly. They
+              also ran into a bit of a snafu due to how the concrete was poured.
+              The guys were incredibly knowledgeable and offered a couple of
+              different solutions to the problem. We also had a lot of concrete
+              caulking that needed to be done and they did a phenomenal job as
+              well. And they cleaned up really well after they left!
             </p>
-            <p class="review-highlight">
-              Positive: Professionalism, Punctuality, Quality, Responsiveness,
-              Value
-            </p>
-            <p class="review-author">- Lori Welsh</p>
-          </div>
-
-          <div class="review-card">
-            <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
             <p class="review-text">
-              I'd like to thank Chris and the crew of Top Notch for getting my
-              garage floor back to flat and level and back above grade. The only
-              regret is that I didn't call them sooner (like&hellip;years
-              before). They were friendly, very very cost effective compared to
-              other bids I had gotten, and most of all, precise with their work.
-              I have already recommended them to others and will continue to do
-              so in the future. Thanks again for all of your help fellas. Now I
-              feel comfortable getting the floor coated to make it perfect.
-              Don't fall for the "foam fill" hype and outlandish prices from
-              others. Top Notch will get ya taken care of! 5 stars from me!!
-            </p>
-            <p class="review-highlight">
-              Positive: Professionalism, Punctuality, Quality, Responsiveness,
-              Value
-            </p>
-            <p class="review-author">- Anthony Armstrong</p>
-          </div>
-
-          <div class="review-card">
-            <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-            <p class="review-text">
-              They are called Top Notch for a reason! Did an excellent job in my
-              garage drive way and stoop step. I had 3 different estimates on
-              the work I needed done. One company quoted 3 times the amount Top
-              Notch did and said there was no way to get done what I wanted. And
-              would have to wait till next spring. These guys got what I wanted
-              done and more. I highly recommend you won't be disappointed.
-            </p>
-            <p class="review-author">- Michael Helderth</p>
-          </div>
-
-          <div class="review-card">
-            <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-            <p class="review-text">
-              When I decided I had to do something with a small (30') section of
-              side walk I began by checking out the reviews on line. Much like
-              your doing right now. Full 5 Star reviews are pretty darn scarce,
-              but from my initial contact with their office to the completion of
-              the job, EVERY step lived up to their reputation. From their
-              office setting up an appointment for an estimate, to the
-              scheduling of the job, to the completion of the work, every step
-              was punctual and professional and at a very reasonable price. I
-              will certainly call them in the future should the need arise.
-            </p>
-            <p class="review-highlight">
-              Positive: Professionalism, Punctuality, Quality, Responsiveness,
-              Value
-            </p>
-            <p class="review-author">- Dave Russell</p>
-          </div>
-
-          <div class="review-card">
-            <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-            <h3 class="review-title">
-              Professional Service With GREAT Results!
-            </h3>
-            <p class="review-text">
-              Chuck and Chris performed mudjacking on both side walk and drive
-              way with great results. Both approached this project in a very
-              professional manner, while taking the time to address all of my
-              questions and concerns. Their attention to every detail, and
-              respect shown throughout the process was recognized and much
+              Overall, the team was very professional, prompt, and gave us a
+              clear and accurate estimate. The owner seemed incredibly
+              knowledgeable and was great at explaining what needed to be done,
+              why and giving us options when problems came up without dumbing
+              things down or making me feel stupid for asking questions. Greatly
               appreciated!
             </p>
-            <p class="review-author">- Bob Carlson</p>
+            <p class="review-text">
+              They came and did the work when they said that they would and even
+              checked up on us a few weeks out.
+            </p>
+            <p class="review-text">
+              If you've got shifting concrete, torn up and raggedy caulking and
+              are looking for someone to do really good work, these are the guys!
+            </p>
+            <p class="review-text">
+              Seriously, couldn't be happier and more grateful!
+            </p>
+            <p class="review-author">- Nichollette Rider</p>
+            <p class="review-local-guide">
+              <img loading="lazy" src="images/local-guide-icon.png" alt="" />
+              Local Guide &bull; 23 reviews
+            </p>
           </div>
 
           <div class="review-card">
             <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-            <h3 class="review-title">First Class All the Way</h3>
             <p class="review-text">
-              I had the guys in to do some work on my driveway and front step.
-              They did a fantastic job &ndash; very professional and looks
-              great. They had an equipment issue part of the way through and
-              some hydraulic oil was spilled on my driveway. They not only got
-              it cleaned perfectly, but were kind enough to leave me a brand new
-              bottle of concrete cleaner in case I had to go back and hit it
-              again. Way above and beyond what I expected. I would highly
-              recommend them to anyone looking to have some mudjacking done.
-              Barb in the office was also very courteous and professional. As my
-              heading says, first class all the way.
+              Top Notch has done excellent work for me and others I have referred
+              to use them. They come in and get the job done just like they say
+              they will do, and you will be supporting a small local business. I
+              have had them do a garage approach, sidewalks, cement steps and a
+              couple patios.
             </p>
-            <p class="review-author">- Chris Manor</p>
+            <p class="review-author">- Rusty Morehead</p>
           </div>
 
           <div class="review-card">
             <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-            <h3 class="review-title">Quick And Easy</h3>
             <p class="review-text">
-              Top Notch made the process quick and easy. Scheduled the estimate
-              in a timely manner and was able to get into their schedule in less
-              than two weeks. The work they did was outstanding and left my
-              driveway looking cleaner than what I gave them to start with. They
-              made sure everything lined up and was sloping properly. Their
-              pricing was reasonable and their multiple payment methods gave me
-              options.
+              My sidewalks settled around my 1915 home and one sidewalk was
+              washed out and sunk 4"-5" due to bad gutter placement. Top Notch
+              came out and gave a quote and came back out to meet me on a
+              Saturday morning to address some concerns I had. I moved forward
+              with the job. They were on time and repaired everything that they
+              said they were going to. I would highly recommend them.
+              Communication was outstanding with Barb in the office. They left
+              voicemails and emails for appointment setting and followed through
+              with everything. My sidewalks are level and safe! This is how
+              service is supposed to be! 🙌 Thank you Chris and the team!
             </p>
-            <p class="review-author">- Thaddeus McKinley</p>
+            <p class="review-author">- Lee Meyers</p>
+            <p class="review-local-guide">
+              <img loading="lazy" src="images/local-guide-icon.png" alt="" />
+              Local Guide &bull; 37 reviews
+            </p>
           </div>
 
           <div class="review-card">
             <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-            <h3 class="review-title">Fantastic Job</h3>
             <p class="review-text">
-              The guys came exactly when they said they would, done exactly what
-              they said they would and the job turned out fantastic, at the
-              fraction of the cost to remove and replace. Will definitely
-              recommend their services, to anyone that asks.
+              I was very pleased with the job that the guys did on my driveway
+              and sidewalk! They came back and sealed the cracks and joints
+              taking their time doing another outstanding job! I was so pleased
+              that I had them return to level up our back patio and a slab for a
+              future shed. I would highly recommend Top Notch Mudjacking!
             </p>
-            <p class="review-author">- Midwest Roofing &amp; Construction LLC</p>
+            <p class="review-author">- Dana</p>
+          </div>
+
+          <div class="review-card">
+            <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+            <p class="review-text">
+              Top Notch Mudjacking saved my garage from collapsing into my alley.
+              Love finding out your garage is basically sitting on air. That was
+              cool.
+            </p>
+            <p class="review-text">
+              They explained everything, showed me the hollow space under the
+              slab, and got it fixed fast. No mess, great communication, and
+              solid results. If you've got settled concrete, don't wait &mdash;
+              these are the folks to call.
+            </p>
+            <p class="review-author">- Damien Swords</p>
+            <p class="review-local-guide">
+              <img loading="lazy" src="images/local-guide-icon.png" alt="" />
+              Local Guide &bull; 14 reviews
+            </p>
+          </div>
+
+          <div class="review-card">
+            <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+            <p class="review-text">
+              Chris and Michael were truly professional. It was amazing to
+              watch... as I had never saw this done before. The garage and
+              driveway look fantastic. They also paid close attention to the
+              cleanup. Thank you very much. Highly recommend
+            </p>
+            <p class="review-author">- Joel Dixon</p>
+          </div>
+
+          <div class="review-card">
+            <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+            <p class="review-text">
+              Top Notch Mudjacking truly is top notch! Call these guys for your
+              needs!
+            </p>
+            <p class="review-author">- Brett Casper</p>
+          </div>
+
+          <div class="review-card">
+            <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+            <p class="review-text">
+              Chris and crew are fantastic! The communication from Barb through
+              the whole process was wonderful! I never needed to call to verify
+              anything. They were always a step ahead! Chris did an excellent job
+              explaining everything and my porch steps are right back in place! I
+              would definitely recommend them and use them again for future
+              needs!
+            </p>
+            <p class="review-author">- Emily Andrae</p>
+          </div>
+
+          <div class="review-card">
+            <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+            <p class="review-text">
+              The team called to see if they could come a few weeks before
+              scheduled. They had great equipment, super teamwork, and completed
+              the job and then some. They didn't finish until they were satisfied
+              which was beyond my expectations. I rate them top notch of the many
+              contractors I have ever used.
+            </p>
+            <p class="review-author">- Dwight Swartz Sr.</p>
+          </div>
+
+          <div class="review-card">
+            <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+            <p class="review-text">
+              Had my driveway and back patio done today. Exceptional service.
+              Highly recommend Top Notch Mudjacking!!
+            </p>
+            <p class="review-author">- John Roenfeldt</p>
           </div>
         </div>
       </section>
@@ -187,40 +214,54 @@
 
       <section class="stay_connected">
         <h2>Stay Connected</h2>
-
-        <div class="phone_email">
-          <a href="tel:(309) 948-3736">
-            <img loading="lazy" src="images/phone-logo.png" alt="Phone Icon" />
-            (309) 948-3736
-          </a>
-          <a href="mailto: topnotchmudjacking@gmail.com">
-            <img loading="lazy" src="images/email-logo.png" alt="Email Icon" />
-            topnotchmudjacking@gmail.com
-          </a>
-        </div>
-
-        <div class="social_media">
-          <a href="https://www.facebook.com/TopNotchMudjacking" target="_blank"
-            ><img loading="lazy" src="images/facebook-logo.png" alt="Facebook Icon"
-          /></a>
-          <a
-            href="https://www.youtube.com/channel/UC8D9UMv59Q1csXvoEr-OwWw"
-            target="_blank"
-            ><img loading="lazy" src="images/youtube-logo.png" alt="YouTube Icon"
-          /></a>
-          <a href="https://www.google.com/maps/place/Top+Notch+Mudjacking/@41.467512,-90.557455,10z/data=!4m8!3m7!1s0x87e3cfd7f4648971:0xef203219debac9fb!8m2!3d41.4388658!4d-90.7192623!9m1!1b1!16s%2Fg%2F11b6gj0h8x" target="_blank"
-            ><img loading="lazy" src="images/google-icon.png" alt="Google Icon"
-          /></a>
-          <a
-            href="https://www.bbb.org/us/il/andalusia/profile/mud-jacking-contractors/top-notch-mudjacking-llc-0664-32099853"
-            target="_blank"
-            ><img
-              src="images/bbb-logo.png"
-              alt="Accredited Business Icon"
-          /></a>
-        </div>
-        <div class="hours">
-          <img loading="lazy" src="images/hours.png" alt="hours of operation" />
+        <div class="stay_connected_content">
+          <div class="stay_connected_left">
+            <div class="phone_email">
+              <a href="tel:(309) 948-3736">
+                <img loading="lazy" src="images/phone-logo.png" alt="Phone Icon" />
+                (309) 948-3736
+              </a>
+              <a href="mailto: topnotchmudjacking@gmail.com">
+                <img loading="lazy" src="images/email-logo.png" alt="Email Icon" />
+                topnotchmudjacking@gmail.com
+              </a>
+            </div>
+            <div class="social_media">
+              <a href="https://www.facebook.com/TopNotchMudjacking" target="_blank"
+                ><img loading="lazy" src="images/facebook-logo.png" alt="Facebook Icon"
+              /></a>
+              <a
+                href="https://www.youtube.com/channel/UC8D9UMv59Q1csXvoEr-OwWw"
+                target="_blank"
+                ><img loading="lazy" src="images/youtube-logo.png" alt="YouTube Icon"
+              /></a>
+              <a
+                href="https://www.google.com/maps/place/Top+Notch+Mudjacking/@41.467512,-90.557455,10z/data=!4m8!3m7!1s0x87e3cfd7f4648971:0xef203219debac9fb!8m2!3d41.4388658!4d-90.7192623!9m1!1b1!16s%2Fg%2F11b6gj0h8x"
+                target="_blank"
+                ><img loading="lazy" src="images/google-icon.png" alt="Google Icon"
+              /></a>
+              <a
+                href="https://www.bbb.org/us/il/andalusia/profile/mud-jacking-contractors/top-notch-mudjacking-llc-0664-32099853/#sealclick"
+                target="_blank"
+                rel="nofollow"
+                ><img
+                  src="https://seal-iowa.bbb.org/seals/blue-seal-293-61-bbb-32099853.png"
+                  style="border: 0;"
+                  alt="Top Notch Mudjacking LLC BBB Business Review"
+              /></a>
+            </div>
+          </div>
+          <div class="stay_connected_right">
+            <h3>Hours of Operation</h3>
+            <div class="hours_list">
+              <div class="hours_row"><span>MONDAY</span><span>8:00 - 4:00</span></div>
+              <div class="hours_row"><span>TUESDAY</span><span>8:00 - 4:00</span></div>
+              <div class="hours_row"><span>WEDNESDAY</span><span>8:00 - 4:00</span></div>
+              <div class="hours_row"><span>THURSDAY</span><span>8:00 - 4:00</span></div>
+              <div class="hours_row"><span>FRIDAY</span><span>8:00 - 4:00</span></div>
+            </div>
+            <p class="hours_closed">CLOSED SATURDAY &amp; SUNDAY</p>
+          </div>
         </div>
       </section>
     </main>

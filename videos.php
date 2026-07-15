@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="Contact Top Notch Mudjacking for a free estimate on concrete leveling services."
+      content="Watch videos of our mudjacking and concrete raising projects in the Quad Cities area."
     />
     <link rel="stylesheet" href="ResponsiveTopNavDropdown.css" />
     <link rel="stylesheet" href="style.css?v=<?php echo @filemtime(__DIR__ . '/style.css'); ?>" />
@@ -16,66 +16,44 @@
 
     <main>
       <div class="page-banner">
-        <h1>Contact Us</h1>
+        <h1>Video Gallery</h1>
       </div>
 
-      <section class="page-content">
-        <div class="contact-grid">
-          <div class="contact-form-wrap">
-            <h2>Get A Free Estimate</h2>
-            <p>
-              Fill out the form below and we'll get back to you as soon as
-              possible.
-            </p>
-            <div class="contact-form-embed">
+      <section class="video-gallery">
+        <p class="gallery-intro">
+          See our mudjacking and concrete raising work in action. Watch the
+          videos below to learn more about what we do.
+        </p>
+        <div class="video-grid">
+          <figure class="video-card">
+            <div class="video-frame">
               <iframe
-                src="https://docs.google.com/forms/d/e/1FAIpQLScWkle9fH0P1w9kwDxr7vUWfwOIVSDkmgCsMvtDETcW3Q7viA/viewform?embedded=true"
-                width="100%"
-                height="1505"
-                frameborder="0"
-                marginheight="0"
-                marginwidth="0"
-                title="Get A Free Estimate form"
-                >Loading...</iframe
-              >
-            </div>
-          </div>
-
-          <div class="contact-info-wrap">
-            <h2>Contact Information</h2>
-            <div class="contact-details">
-              <div class="contact-detail">
-                <img loading="lazy" src="images/phone-logo.png" alt="Phone Icon" />
-                <div>
-                  <h3>Phone</h3>
-                  <a href="tel:(309) 948-3736">(309) 948-3736</a>
-                </div>
-              </div>
-              <div class="contact-detail">
-                <img loading="lazy" src="images/email-logo.png" alt="Email Icon" />
-                <div>
-                  <h3>Email</h3>
-                  <a href="mailto:topnotchmudjacking@gmail.com"
-                    >topnotchmudjacking@gmail.com</a
-                  >
-                </div>
-              </div>
-            </div>
-
-            <div class="contact-map">
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d80355.2831232202!2d-90.61595076702164!3d41.54281029400771!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87e3cfd7f4648971%3A0xef203219debac9fb!2sTop%20Notch%20Mudjacking!5e0!3m2!1sen!2sus!4v1783965370417!5m2!1sen!2sus"
-                width="600"
-                height="450"
-                style="border: 0"
-                allowfullscreen=""
-                loading="lazy"
+                src="https://www.youtube.com/embed/NosL1gvQ-kI"
+                title="Top Notch Mudjacking Video"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen
               ></iframe>
             </div>
+          </figure>
+          <figure class="video-card">
+            <div class="video-frame">
+              <iframe
+                src="https://www.youtube.com/embed/9Z-XgX-SjH0"
+                title="Top Notch Mudjacking Video"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen
+              ></iframe>
+            </div>
+          </figure>
+        </div>
+      </section>
 
-
-          </div>
+      <section id="free_estimate">
+        <div class="image-container">
+          <img loading="lazy" src="images/free-estimate.png" alt="Free Estimate" />
+          <a class="btn" href="contact.html">Get A Free Estimate</a>
         </div>
       </section>
 
